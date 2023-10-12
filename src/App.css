@@ -1,4 +1,78 @@
-#root {
-  margin: 0 auto;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(218, 86%, 64%);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links > a{
+  text-decoration: none;
+  color: black;
+}
+
+.App {
   text-align: center;
+  /* margin-top: 1rem; */
+}
+
+.home-title {
+  margin-top: 1rem;
+}
+
+.ul-countries {
+  list-style-type: none;
+  margin: 0rem 8rem;
+  padding: 0;
+}
+
+.li-countries {
+  border: 1px solid grey;
+  padding: 0.4rem 0rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.li-countries:hover {
+  background-color: grey;
+  color: white;
+}
+
+.country-image {
+  height: 30px;
+  width: 40px;
+}
+
+.country-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 2rem;
+}
+
+.country-details-title {
+  margin: 2rem 0rem;
+}
+
+.details-container > ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-container > ul > li{
+  border-bottom: 1px solid grey;
+  margin: 0 30%;
+}
+
+.details-bold {
+  font-weight: bold;
+}
+
+.details-container > ul > ul{
+  list-style-type: none;
+  padding: 0;
 }
